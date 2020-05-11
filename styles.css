@@ -1,0 +1,75 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+
+a {
+	color: rgb(0, 0, 0, 0.87);
+	font-size: 13px;
+	text-decoration: none;
+	top: 15px;
+	position: absolute;
+}
+
+#about {
+	left: 30px;
+	position: absolute;
+}
+
+#store {
+	left: 80px;
+	position: absolute;
+}
+
+
+#gmail {
+	right: 210px;
+	position: absolute;
+}
+
+#images {
+	right: 140px;
+	position: absolute;
+}
+
+#app-icon {
+	right: 83px;
+	top: 5px;
+	position: absolute;
+}
+
+#sign-in-button {
+	background-color: #4787ed;
+	color: #ffffff;
+	border: none;
+	border-radius: 3px;
+	outline: none;
+	font-weight: bold;
+	height: 30px;
+	width: 65px;
+
+	right: 10px;
+	position: absolute;
+}
+
+#google-logo {
+	top: 200px;
+	left: 400px;
+	position: absolute;
+}
+
+input {
+	border-radius: 24px;
+	outline: none;
+	border-style:solid;
+	border: 1px solid #dfe1e5;
+
+	height: 44px;
+	width: 482px;
+	left: 300px;
+
+	top: 300px;
+	position: absolute;
+	padding: 5px 8px 0 16px;
+	padding-left: 14px;
+}
