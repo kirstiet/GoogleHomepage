@@ -9,23 +9,51 @@
 
 <body>
 
-	<div class="top-nav">
-		<a href="#about" id="about">About</a>
-		<a href="#store" id="store">Store</a>
-		<a href="#gmail" id="gmail">Gmail</a>
-		<a href="#images" id="images">Images</a>
+<div class="top-nav-container">
+	<div class="top-nav-bar">
+		<a class="top-nav about" ref="about">About</a>
+		<a class="top-nav store" ref="store">Store</a>
+		<a class="top-nav gmail" ref="gmail">Gmail</a>
+		<a class="top-nav images" ref="images">Images</a>
+		<a class="top-nav app" ref="app"><img class="app-icon" src="Images/app_icon.png"></a>
+		<button class="top-nav sign-in">Sign In</button>
+	</div>
+</div>
+</p>
 
-		<img src="app_icon.png" id="app-icon"/>
-		<button id="sign-in-button">Sign In</button>
-
+<div class="main-body-block">
+	<div class="google-logo-block">
+		<img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 	</div>
 
-	<div>
-
-		<img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
-		<input type="text" id="textbox"/>
-
+	<div class="searchbar-block">
+		<input class="searchbar" type="text">
+			<img class="magnifying-glass-icon" src="Images/magnifying_glass.png">
+			<img class="microphone-icon" src="Images/microphone.png">
+		</input>
 	</div>
+
+	<div class="button-block">
+		<button class="search-button">Google Search</button>
+		<button class="feeling-lucky">I'm Feeling Lucky</button>
+	</div>
+
+
+</div>
+
+
+
+
+<div class="bottom-nav-container">
+	<div class="bottom-nav-bar">
+		<a class="bottom-nav advertising" ref="advertising">Advertising</a>
+		<a class="bottom-nav business" ref="business">Business</a>	
+		<a class="bottom-nav howsearchworks" ref="howsearchworks">How Search Works</a>
+		<a class="bottom-nav privacy" ref="privacy">Privacy</a>
+		<a class="bottom-nav terms" ref="terms">Terms</a>
+		<a class="bottom-nav settings" ref="settings">Settings</a>
+	</div>
+</div>
 
 </body>
 
